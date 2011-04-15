@@ -4,7 +4,7 @@ local Form = require 'bamboo.form'
 local View = require 'bamboo.view'
 
 local Page = require 'legecms.models.page'
-local Upload = require 'bamboo.upload'
+local Upload = require 'bamboo.models.upload'
 
 local http = require 'lglib.http'
 

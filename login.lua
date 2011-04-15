@@ -5,8 +5,8 @@ local posix = require 'posix'
 
 local Form = require 'bamboo.form'
 local View = require 'bamboo.view'
-local User = require 'bamboo.user'
-local Upload = require 'bamboo.upload'
+local User = require 'bamboo.models.user'
+local Upload = require 'bamboo.models.upload'
 
 local Page = require 'legecms.models.page'
 

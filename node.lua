@@ -5,9 +5,9 @@ local posix = require 'posix'
 
 local Form = require 'bamboo.form'
 local View = require 'bamboo.view'
-local User = require 'bamboo.user'
-local Upload = require 'bamboo.upload'
-local Node = require 'bamboo.node'
+local User = require 'bamboo.models.user'
+local Upload = require 'bamboo.models.upload'
+local Node = require 'bamboo.models.node'
 
 function newNode(web, req, params, is_category)
 	local parent = nil

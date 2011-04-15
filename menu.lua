@@ -4,9 +4,9 @@ local http = require 'lglib.http'
 local posix = require 'posix'
 
 local Form = require 'bamboo.form'
-local Upload = require 'bamboo.upload'
+local Upload = require 'bamboo.models.upload'
 
-local Menu = require 'bamboo.menu'
+local Menu = require 'bamboo.models.menu'
 
 
 function newMenuItem(web, req)

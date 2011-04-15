@@ -4,7 +4,7 @@ local Form = require 'bamboo.form'
 local View = require 'bamboo.view'
 
 local Page = require 'legecms.models.page'
-local Message = require 'bamboo.message'
+local Message = require 'bamboo.models.message'
 
 function comment(web, req)
     -- 这里等待输入

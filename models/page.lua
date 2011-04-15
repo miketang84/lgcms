@@ -1,7 +1,7 @@
 module(..., package.seeall)
 
 local http = require 'lglib.http'
-local Node = require 'bamboo.node'
+local Node = require 'bamboo.models.node'
 local View = require 'bamboo.view'
 
 local Page 
@@ -10,6 +10,7 @@ Page = Node:extend {
 	__name = 'Page';
 	__desc = 'Abstract page node definition.';
 	__fields = {
+		['id'] 		= 	{},						-- 页面的id
 		['name'] 	= 	{},						-- 页面的内部名称
 		['rank'] 	= 	{},						-- 页面在整个页面树中的级别，为字符串
 		['title'] 	= 	{},						-- 页面标题
